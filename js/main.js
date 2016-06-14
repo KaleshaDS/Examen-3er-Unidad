@@ -48,3 +48,11 @@ function search(){
       }
    }
 }
+
+//Limpiar ventana de chat//
+$(".contacts-chat").click(function(){
+      $(".chat").empty();
+    });
+
+
+
